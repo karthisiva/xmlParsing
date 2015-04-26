@@ -14,6 +14,7 @@
 		3A8110D51AED3AC7000106AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8110D41AED3AC7000106AC /* Images.xcassets */; };
 		3A8110D81AED3AC7000106AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A8110D61AED3AC7000106AC /* LaunchScreen.xib */; };
 		3A8110E41AED3AC7000106AC /* xmlParsingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8110E31AED3AC7000106AC /* xmlParsingTests.m */; };
+		3A8110EF1AED3C6B000106AC /* customCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8110EE1AED3C6B000106AC /* customCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		3A8110DD1AED3AC7000106AC /* xmlParsingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xmlParsingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A8110E21AED3AC7000106AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A8110E31AED3AC7000106AC /* xmlParsingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xmlParsingTests.m; sourceTree = "<group>"; };
+		3A8110ED1AED3C6B000106AC /* customCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customCell.h; sourceTree = "<group>"; };
+		3A8110EE1AED3C6B000106AC /* customCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				3A8110CE1AED3AC7000106AC /* ViewController.h */,
 				3A8110CF1AED3AC7000106AC /* ViewController.m */,
 				3A8110D11AED3AC7000106AC /* Main.storyboard */,
+				3A8110ED1AED3C6B000106AC /* customCell.h */,
+				3A8110EE1AED3C6B000106AC /* customCell.m */,
 				3A8110D41AED3AC7000106AC /* Images.xcassets */,
 				3A8110D61AED3AC7000106AC /* LaunchScreen.xib */,
 				3A8110C71AED3AC7000106AC /* Supporting Files */,
@@ -221,6 +226,7 @@
 			files = (
 				3A8110D01AED3AC7000106AC /* ViewController.m in Sources */,
 				3A8110CD1AED3AC7000106AC /* AppDelegate.m in Sources */,
+				3A8110EF1AED3C6B000106AC /* customCell.m in Sources */,
 				3A8110CA1AED3AC7000106AC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
